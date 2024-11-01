@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    background-image: url("img/banner.png");
+    background-repeat: no-repeat;
+    background-position: center 150px;
+    background-size: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #87ceeb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+p   {
+font-weight: bold;
+}
+
+.botao-clique-aqui {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-clique-aqui button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333; /* Cor escura para combinar com o cabeçalho */
+    border: 2px solid #FFA500; /* Borda laranja para dar destaque */
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); /* Sombra suave */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao-clique-aqui button:hover {
+    background-color: #FFA500; /* Cor de fundo laranja ao passar o mouse */
+    color: #333; /* Texto escuro para contraste com o fundo laranja */
+    transform: translateY(-4px); /* Efeito de elevação */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5); /* Sombra mais forte ao hover */
+}
